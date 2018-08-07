@@ -1,6 +1,6 @@
 ### Federation Block Signing Demo
 
-Simple demonstration of the Federation Block Signing protocol in Elements.
+Simple demonstration of the Federation Block Signing protocol in [Elements blockchain](https://github.com/ElementsProject/elements).
 
 This demo uses Kafka as a communication protocol between 3 signing nodes running locally, implementing a 2-of-3 Federation.
 
@@ -8,7 +8,7 @@ This can be easily extended for nodes running in remote locations/containers by 
 
 #### Instructions
 
-- Build Elements Daemon
+- Build Elements Daemon from [instructions](https://github.com/ElementsProject/elements/tree/elements-0.14.1/doc)
 - Install Zookeeper and Kafka and start both services
 - Install python3 and requirements `pip3 install requirements.txt`
 
